@@ -35,11 +35,9 @@ const productos = document.querySelector("[data-allProducts]");
 productos.addEventListener("click", async (evento) => {
   let deleteButton = evento.target.className === "deleteImage";
   if (deleteButton) {
-    const producto = evento.target.closest("[data-id]");
+    const producto = evento.target.closest("[data-id]"); /*target, que viene a ser el elemento que recibió el evento. */
     let id = producto.dataset.id;
-    productoServices
-      .deleteProducto(id)
-      .then((res) => {
+    productoServices.deleteProducto(id).then((res) => {
         producto.remove();
         console.log(res);
       })

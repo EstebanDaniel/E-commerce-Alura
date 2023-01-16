@@ -1,18 +1,18 @@
 //GET
 const listaProductos = () =>
-  fetch("http://localhost:3000/producto")
+  fetch("https://json-db-0tex.onrender.com/producto")
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error));
 
 const listarUnProduto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((resposta) => {
+  return fetch(`https://json-db-0tex.onrender.com/producto/${id}`).then((resposta) => {
     return resposta.json();
   });
 };
 
 //POST
 const creaProdutos = (name, imageUrl, price) => {
-  return fetch(`http://localhost:3000/producto`, {
+  return fetch(`https://json-db-0tex.onrender.com/producto`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -32,7 +32,7 @@ const creaProdutos = (name, imageUrl, price) => {
 
 // PUT/PATCH
 const alteraProduto = async (id, name, price, description) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://json-db-0tex.onrender.com/producto/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
@@ -51,7 +51,7 @@ const alteraProduto = async (id, name, price, description) => {
 
 // DELETE
 const deleteProducto = async (id) => {
-  return await fetch(`http://localhost:3000/producto/${id}`, {
+  return await fetch(`https://json-db-0tex.onrender.com/producto/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",

@@ -24,12 +24,7 @@ const render = async () => {
     const listaProductos = await productoServices.listaProductos();
     listaProductos.forEach((elemento) => {
       productos.appendChild(
-        nuevoProduto(
-          elemento.name,
-          elemento.price,
-          elemento.imageUrl,
-          elemento.id
-        )
+        nuevoProduto( elemento.name, elemento.price,elemento.imageUrl, elemento.id)
       );
     });
   } catch (erro) {

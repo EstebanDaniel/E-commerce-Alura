@@ -3,16 +3,9 @@
     {
       "name": "One",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
-      "price": "100.00",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "price": "200.00",
+      "description": "Vrta anim magnam",
       "id": 4
-    },
-    {
-      "name": "Alura latam",
-      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
-      "price": "5",
-      "id": 6,
-      "description": ""
     },
     {
       "name": "bic",
