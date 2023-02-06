@@ -30,7 +30,7 @@ const getProducts = (name, price, imageUrl, id) => {
   return card;
 };
 
-const productos = document.querySelector("[data-allProducts]");
+const productos = document.querySelector("[data-allProducts]"); //vinculado a producto.html
 
 productos.addEventListener("click", async (evento) => {
   let deleteButton = evento.target.className === "deleteImage";

@@ -26,7 +26,7 @@ const creaProdutos = (name, imageUrl, price) => {
     if (resposta.ok) {
       return resposta.body;
     }
-    throw new Error("Não foi possível criar um produto");
+    throw new Error("No es posible crear un producto");
   });
 };
 

@@ -96,7 +96,16 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    border-color: transparent;
 }
+
+.product-add_btn:hover{
+
+    transition: 0.3s;
+    opacity: 0.7;
+
+}
+
 
 .product-add_tablet {
     display: flex;

@@ -17,7 +17,7 @@ const nuevoProduto = (name, price, imageUrl, id) => {
   return card;
 };
 
-const productos = document.querySelector("[data-product]");
+const productos = document.querySelector("[data-product]"); //vinculado a index.html, pagina principal
 
 const render = async () => {
   try {

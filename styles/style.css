@@ -61,6 +61,8 @@ nav {
   flex-direction: row;
 }
 
+
+
 .logo-busqueda {
   width: 601px;
   display: flex;
@@ -115,6 +117,7 @@ nav {
   border: solid 1px var(--azul-destaque);
   color: var(--azul-destaque);
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 .login button:hover {
@@ -227,6 +230,13 @@ nav {
   color: var(--texto-destaque);
   height: 51px;
   width: 180px;
+  
+}
+
+.form button:hover{
+  opacity: 0.7;
+  transition:0.3s;
+  
 }
 
 

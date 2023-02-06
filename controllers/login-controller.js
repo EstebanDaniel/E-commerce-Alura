@@ -8,6 +8,6 @@ form.addEventListener("submit", (evento) => {
   if (email.length > 5 && password.length > 5) {
     window.location.href = "../screens/produto.html";
   } else {
-    alert("Por favor, insira mais de 5 caracteres no email e senha.");
+    alert("Por favor, inserte más de 5 caracteres en el email y contraseña");
   }
 });
