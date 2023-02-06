@@ -7,7 +7,7 @@ const nuevoProduto = (name, price, imageUrl, id) => {
         <div class="produto">
             <img src="${imageUrl}" alt="img">
             <h1 class="product-name"> ${name} </h1>
-            <p class="preco">${formatPrice(price)}</p>
+            <p class="preco">AR$ ${price}</p>
             <a class="ver-produto" href="../produto.html?id=${id}">Ver Produto</a>
         </div>   
     `;
@@ -33,3 +33,6 @@ const render = async () => {
 };
 
 render();
+
+
+//${formatPrice(price)}

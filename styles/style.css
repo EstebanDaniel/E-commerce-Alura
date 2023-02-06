@@ -1,4 +1,4 @@
-/*---------------Variaveis---------------*/
+/*---------------Variables---------------*/
 
 :root {
   --bg-color: #ebebeb;
@@ -239,4 +239,17 @@ nav {
   
 }
 
+.pie {
+  height:90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie__parrafo{
+
+margin: 2px;
+
+}
 

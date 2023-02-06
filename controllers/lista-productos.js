@@ -22,7 +22,7 @@ const getProducts = (name, price, imageUrl, id) => {
         
         <img src="${imageUrl}" alt="img">
         <h1 class="product-name"> ${name} </h1>
-        <p class="preco">${formatPrice(price)}</p>
+        <p class="preco">AR$ ${price}</p>
     </div>
     `;
   card.innerHTML = contenido;
