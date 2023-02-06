@@ -35,7 +35,7 @@
   height: 100%;
 	padding: 0px 150px 0px 150px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	gap: 10px;
 }
@@ -87,6 +87,22 @@ img {
 h1,
 p {
   margin: 8px 0px 8px 0px;
+}
+
+@media(max-width:668px){
+
+  .products_title {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 150px 0px 150px;
+    font-size: 32px;
+    font-weight: bold;
+    /* padding: 30px; */
+    color: #464646;
+  } 
+
 }
 
 

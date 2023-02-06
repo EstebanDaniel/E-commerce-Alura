@@ -133,22 +133,32 @@ nav {
   height: 365px;
   justify-content: center;
   padding: 64px 0;
+  gap: 50px;
 }
+
+
 
 .referencia {
   display: flex;
-  width: 350px;
-  margin: 20px 0 0 0;
+  width: auto;
+  margin-left: 40px;
 }
 
 .referencia img {
   width: 60px;
   height: 40px;
+  
 }
 
 .img-crud {
   width: 250px;
   height: 200px;
+}
+
+.referencia-padre{
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .referencia p {
@@ -164,7 +174,7 @@ nav {
   flex-direction: column;
   line-height: 40px;
   width: 200px;
-  margin-right: 100px;
+  margin-left: 40px;
 }
 
 .links-uteis a {
@@ -176,7 +186,7 @@ nav {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 500px;
+  width: auto;
 }
 
 .form p {
@@ -184,7 +194,7 @@ nav {
 }
 
 .form input {
-  width: 475px;
+  width: 375px;
   position: relative;
   height: 56px;
   border: transparent;
@@ -200,7 +210,7 @@ nav {
 }
 
 .label-nome {
-  width: 100%;
+  width: 375px;
   position: absolute;
   color: var(--input-placeholder);
   top: 80px;
@@ -217,7 +227,7 @@ nav {
 }
 
 .form textarea {
-  width: 100%;
+  width: 395px;
   font-family: "Relaway", sans-serif;
   border: transparent;
   color: var(--azul-destaque);
@@ -253,3 +263,152 @@ margin: 2px;
 
 }
 
+
+/*responsive----------------------------------*/
+
+@media (max-width: 1268px){
+
+  .referencia-padre{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media (max-width: 800px){
+
+  .logo-busqueda {
+ 
+    width: 501px;
+
+}
+
+.referencia-padre{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.logo-busqueda input {
+  margin-left: 10%;
+  width: 293px;
+  background-position: right;
+  background-position-x: 220px;
+}
+
+.login button {
+  width: 132px;
+  
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+  height: 600px;
+  gap: 50px;
+}
+
+.links-uteis {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.referencia-padre{
+
+  
+  margin-left: 0;
+  
+  align-items: center;
+}
+
+.referencia{
+  display: flex;
+  justify-content:center;
+  margin-left: 0;
+}
+.referencia p {
+  margin-left: 0;
+  text-align: center;
+}
+
+  .form{
+
+    margin-left: 10px;
+  }
+
+  .form input {
+
+    width: 355px;
+
+  }
+
+  .form textarea {
+
+    width: 371px;
+
+  }
+
+  .label-nome {
+    width: 355px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .logo-busqueda {
+ 
+    width: 301px;
+
+}
+
+.referencia-padre{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.logo-busqueda input {
+  
+  display: none;
+}
+
+.login button {
+  width: 120px;
+  
+}
+
+
+}
+
+@media (max-width: 400px) {
+
+
+
+  .form input {
+
+    width: 255px;
+
+  }
+
+  .form textarea {
+
+    width: 271px;
+
+  }
+
+  .label-nome {
+    width: 255px;
+  }
+
+  .login button {
+    width: 80px;
+    
+  }
+
+  
+
+}

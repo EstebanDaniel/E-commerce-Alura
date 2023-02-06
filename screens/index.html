@@ -31,8 +31,8 @@
 
     <section class="destaque">
       <div class="banner">
-        <h1>Febrero Promocional</h1>
-        <h4>Productos seleccionados con 33% de descuento</h4>
+        <h1 class="banner__h1">Febrero Promocional</h1>
+        <h4 class="banner__h4">Productos seleccionados con 33% de descuento</h4>
         <button>Ver Consolas</button>
       </div>
     </section>
@@ -42,11 +42,11 @@
         <div class="titulo">
           <p>Productos</p>
         </div>
-        <div class="mostrar-mais">
+       <!-- <div class="mostrar-mais">
           <div class="div-verTudo">
-            <!-- <img class="verTudo" src="" alt="seta" />---> 
+             <img class="verTudo" src="" alt="seta" />
           </div>
-        </div>
+        </div>---> 
       </div>
       <section class="sessao-produtos" data-product>
         <!--section donde se renderiza las img,price,etc traidas de la db.json subida a render, vinculadas con productos-controller.js-->
@@ -54,12 +54,14 @@
     </section>
 
     <section class="contato">
-      <div class="referencia">
-        <img src="../assets/logo.png" alt="logo" />
-        <p>Alura</p>
-        <p>Geek</p>
-      </div>
+      <div class="referencia-padre">
+        <div class="referencia">
+          <img src="../assets/logo.png" alt="logo" />
+          <p>Alura</p>
+          <p>Geek</p>
+        </div>
       <div class="links-uteis">
+        
         <a href="">Quienes somos</a>
         <a href="">Política de Privacidad</a>
         <a href="">Programa de fidelidad</a>
@@ -67,6 +69,7 @@
         <a href="">Quiero ser franquiciado</a>
         <a href="">Anuncie aquí</a>
       </div>
+    </div>
 
       <div class="form">
         <p>Hable con nosotros</p>
